@@ -59,9 +59,9 @@ class TelegramBot:
         self.contador = 0
         self.certo = False
         self.sites = self.ler_sites()
-        self.email = 'ocoisa081@gmail.com'
-        self.senha = 'pegasus123'
-        iTOKEN = '1723578764:AAHqoQKbR5R19dREGQOAJUW9NKOxB9fTVSc'
+        self.email = ''
+        self.senha = ''
+        iTOKEN = ''
         self.iURL = f'https://api.telegram.org/bot{iTOKEN}/'
 
     def Iniciar(self):
